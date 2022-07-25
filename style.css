@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	overflow-x: hidden;
+}
+body{
+	background-color: #ececf0;
+}
+
+
+/*Header Part css style starts here*/
+.header{
+	width: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.header .logo{
+	width: 50%;
+	margin-left: 50px;
+	float: left;
+}
+.header .logo img{
+	width: 100px;
+	height: 80px;
+}
+.header .menu{
+	float: right;
+	margin-right: 50px;
+	/*margin-top: 35px;*/
+}
+.header .menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.header .menu ul li : last-child{
+	margin-right: 0;
+}
+.header .menu ul li a{
+	text-decoration: none;
+	color: #000;
+	transition: 0.5s;
+	font-size: 16px;
+	font-family: roboto;
+	font-weight: normal;
+}
+.header .menu ul li a:hover{
+	color: #43960f;
+}
+/*Header Part css style ends here*/
+
+
+/*Banner Part css style starts here*/
+.hero{
+	margin-top: 100px;
+	width: 100%;
+	overflow: hidden;
+}
+.hero .heroleft-content{
+	margin-left: 50px;
+	float: left;
+}
+.hero .heroleft-content h4{
+	font-size: 30px;
+	font-weight: normal;
+	font-family: roboto;
+}
+.hero .heroleft-content h1{
+	font-size: 70px;
+	font-family: roboto;
+	color: #43960f;
+}
+.hero .heroleft-content p{
+	font-size:20px;
+	font-family: roboto;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.hero .heroleft-content .input{
+	margin-bottom: 30px;
+}
+.hero .heroleft-content .input input{
+	padding: 10px 40px;
+	border: 0;
+	outline: 0;
+	box-shadow: 0px 0px 6px;
+	margin-right: 10px;
+}
+
+.hero .heroleft-content .input .search{
+	background-color: #000;
+	padding: 10px 35px;
+	color: #fff;
+	text-decoration: none;
+	font-family: roboto;
+
+}
+
+.hero .heroleft-content .input .search:hover{
+	background-color: #43960f;
+	color: #000;
+	transition: 0.5s;
+}
+
+.hero .heroleft-content .contact{
+	background-color: #000;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 15px;
+	font-family: roboto;
+
+} 
+.hero .heroleft-content .contact:hover{
+	background-color: #43960f;
+	color: #000;
+	transition: 0.5s;
+}
+.hero .heroleft-content .veg{
+	background-color: #000;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	font-family: roboto;
+} 
+.hero .heroleft-content .veg:hover{
+	background-color: #43960f;
+	color: #000;
+	transition: 0.5s;
+}
+
+.hero .heroimg{
+	float: right;
+	width: 50%;
+}
+.hero .heroimg .img{
+	width: 570px;
+	height: 450px;
+}
+/*Banner Part css style ends here*/
+
+
+/*About Us Part css style starts here*/
+.about{
+	width: 90%;
+	overflow: hidden;
+	margin-top: 100px;
+	margin-left: 50px;
+	box-shadow: 3px 1px 10px;
+}
+
+.about .aboutleft{
+	width: 50%;
+	margin-left: 50px;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.about .aboutleft h2{
+	display: inline-block;
+	background-color:#547d13;
+	padding: 10px 20px;
+	color: #fff;
+	font-family: roboto;
+}
+.about .aboutleft p{
+	font-family: roboto;
+	font-size: 18px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	text-align: justify;
+}
+.about .aboutleft .readmore{
+	background-color: #000;
+	padding: 10px 15px;
+	border-radius: 18px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-family: roboto;
+}
+.about .aboutleft .readmore:hover{
+	background-color: #43960f;
+	color: #000;
+	transition: 0.5s;
+}
+.about .aboutright{
+	/*width: 40%;*/
+	float: right;
+	margin-right: 50px;
+}
+.about .aboutright img{
+	width: 500px;
+	height: 400px;
+}
+/*About Us Part css style ends here*/
+
+
+/*Fresh Vagitable Part css style starts here*/
+
+.freshvagitable{
+	width: 100%;
+	margin-top: 100px;
+	overflow: hidden;
+}
+.freshvagitable h2{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: roboto;
+	margin-bottom: 50px;
+}
+.freshvagitable h2 span{
+	color: #547d13;
+}
+.freshvagitable .freshvagitable-leftcontent{
+	margin-left:50px;
+	float: left;
+	width: 50%;
+
+}
+.freshvagitable .freshvagitable-leftcontent img{
+	width: 550px;
+	height: 350px;
+}
+.freshvagitable .freshvagitable-rightcontent h4{
+	font-size: 25px;
+	font-family: roboto;
+	margin-bottom: 20px;
+}
+.freshvagitable .freshvagitable-rightcontent p{
+	line-height: 30px;
+	font-size: 22px;
+	font-family: roboto;
+}
+/*Fresh Vagitable Part css style ends here*/
+
+/*Contact Us Part CSS Style starts Here*/
+.contact-us{
+	margin-top: 70px;
+}
+.contact-us h2{
+	font-size: 40px;
+	font-family: roboto;
+	text-align: center;
+
+}
+.contact-us h2 span{
+	color: #547d13;
+}
+.contact-us form{
+	width: 700px;
+	margin: 0 auto;
+	box-shadow: 3px 1px 10px;
+	margin-top: 30px;
+	padding: 30px;
+}
+.contact-us form input{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	outline: none;
+}
+.contact-us form input::placeholder{
+	color: #547d13;
+}
+.contact-us form textarea{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	resize: none;
+	outline: none;
+}
+.contact-us form textarea::placeholder{
+	color: #547d13;
+}
+.contact-us form .send-btn{
+	background-color: #547d13;
+	color: #fff;
+	font-family: roboto;
+	font-size: 15px;
+	padding: 10px 40px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+}
+/*Contact Us Part CSS Style ends Here*/
+
+
+
+
+
+/*Footer part css style starts here*/
+.footer{
+	width: 100%;
+	background-color: #313131;
+	margin-top: 20px;
+	padding: 25px;
+}
+.footer .footer-row{
+	margin-left:140px;
+}
+.footer .footer-row .address{
+	width: 30%;
+	display: inline-block;
+	/*margin-left: 50px;*/
+}
+.footer .footer-row .address .footer-logo img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+.footer .footer-row .address h2{
+	font-family: roboto;
+	color: #fff;
+	font-size: 25px;
+}
+.footer .footer-row .address p{
+	font-family: roboto;
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.footer .footer-row .social-media{
+	display: inline-block;
+	width: 30%;
+}
+
+.footer .footer-row .social-media h2{
+	color: #fff;
+	font-family: roboto;
+}
+.footer .footer-row .social-media ul{
+	margin-top: 10px;
+}
+.footer .footer-row .social-media ul li a{
+	color: #fff;
+	font-family: roboto;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+.footer .footer-row .social-media ul li{
+	list-style-type: none;
+	margin-bottom: 7px;
+}
+.footer .footer-row .news-letter{
+	display: inline-block;
+	width: 30%;
+
+}
+.footer .footer-row .news-letter h2{
+	color: #fff;
+	font-family: roboto;
+	font-size: 23px;
+	margin-bottom: 13px;
+}
+.footer .footer-row .news-letter .email{
+	width: 230px;
+	border: 0;
+	outline: 0;
+	padding: 10px 15px;
+}
+.footer .footer-row .news-letter .email::placeholder{
+	color: #000;
+	font-size: 12px;
+}
+.footer .footer-row .news-letter .subscribe{
+	background-color: #64a31e;
+	color: #fff;
+	padding: 8px 20px;
+	text-decoration: none;
+	border-radius: 20px;
+	display: block;
+	width: 150px;
+	margin-top: 10px;
+	text-align: center;
+	font-family: roboto;
+	font-size: 15px;
+}
+/*Footer part css style ends here*/
